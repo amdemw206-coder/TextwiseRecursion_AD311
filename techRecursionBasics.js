@@ -1,11 +1,12 @@
 //Function Definition
 function reverseText(str){
     // Base Case
-    if ( str === "" || str.length === 1 ){
+    if ( str === ""){
         return str
     }else{
         // Recursive Case 
-        return reverseText(str.substring(1)) + str.charAt(0);            
+        // console.log(str)
+        return (reverseText(str.substring(1)) + str.charAt(0));            
     }
 }
 
