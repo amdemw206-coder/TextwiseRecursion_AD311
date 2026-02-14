@@ -4,7 +4,8 @@
 ### FAQ: 
 - Time Complexity: O(n) (Linear Time). 
 - Space Complexity: O(n) (Linear Time).
-- #### How does the function work? 
+
+#### How does the function work? 
     - The recursive function "reverseText(str)" requires a string input and returns that same string in reverse 
         - (i) The first block of code is an if statement that routinely checks if either the string is at a length of one character or if the string is empty. 
             - (ia) For that statement to be true the function would have to be at the "Base Case;" The simplest instance of a problem that can be solved directly without further recursive calls.
