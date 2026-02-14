@@ -5,7 +5,6 @@ function reverseText(str){
         return str
     }else{
         // Recursive Case 
-        // console.log(str)
         return (reverseText(str.substring(1)) + str.charAt(0));            
     }
 }
