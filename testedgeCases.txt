@@ -1,0 +1,9 @@
+//Test Cases 
+str1 = "Hello" //Expected Output: olleH
+str2 = "Hello There"  //Expected Output: erehT olleH
+str3 = "racecartacocat" //Expected Output: tacocatracecar
+
+//Edge Cases
+str4 = 1312432545 //Expected Output: error
+str5 = " Hello" //Expected Output: error (X) 
+str6 = "h" //Expected Output: h
